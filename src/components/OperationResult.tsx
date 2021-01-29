@@ -7,7 +7,7 @@ interface Type{
 const ShowResults = (props:Type)=>{
    return (
       <div>
-         <strong>Results</strong> : <span>{props.results}</span>
+         <strong>Results</strong><span>: {props.results}</span>
       </div>   
     )
 }
